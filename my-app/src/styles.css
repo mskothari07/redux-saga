@@ -1,0 +1,273 @@
+/* LoginPage CSS starts */
+.loginPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: gray;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: aqua;
+  width: 200px;
+  gap: 20px;
+  background: white;
+}
+.loginInput {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.loginButton {
+  padding: 10px;
+  background-color: gray;
+  cursor: pointer;
+  color: whitesmoke;
+}
+.newUser {
+  font-size: 14px;
+  text-align: center;
+}
+.loginError {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+} /* Login Page CSS ends  */
+
+/* Register Page CSS Starts */
+.registerPage {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background: gray;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: aqua;
+  width: 200px;
+  gap: 20px;
+  background: white;
+}
+.registerInput {
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.registerButton {
+  padding: 10px;
+  background-color: gray;
+  cursor: pointer;
+  color: whitesmoke;
+}
+.alreadyUser {
+  font-size: 14px;
+  text-align: center;
+}
+.registerError {
+  font-size: 15px;
+  color: red;
+  text-align: center;
+} /* Register Page CSS Ends */
+
+/* Navbar Css Starts */
+.navbar {
+  background: gray;
+}
+.nav-container {
+  padding: 1rem 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links {
+  padding-left: 25rem;
+  display: flex;
+  gap: 12px;
+  text-decoration: none;
+}
+.logo-img {
+  width: 200px;
+  padding-left: 1em;
+}
+.add-blog {
+  color: black;
+  text-decoration: none;
+}
+/* Navbar CSS ends */
+
+/* Footer CSS starts */
+.footer {
+  margin-top: 100px;
+  padding: 20px;
+  background: gray;
+  color: black;
+}
+/* Footer CSS ends */
+
+/* Home Page CSS  */
+.blogs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+.blog {
+  display: flex;
+  gap: 100px;
+}
+.blogs-img {
+  flex: 2;
+}
+.blog-content {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.blogs-content {
+  font-size: 48px;
+}
+.blog-desc {
+  font-size: 18px;
+}
+.blog-bn {
+  width: fit-content;
+  height: fit-content;
+  font-size: 20px;
+  /* border: 2px solid black; */
+}
+/* Home Page CSS ends */
+
+/* Single Blog Page CSS */
+
+.single-blog {
+  display: flex;
+  gap: 50;
+}
+.blog-content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+.blog-menu {
+  flex: 2;
+}
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.single-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.username {
+  font-weight: bold;
+}
+.user-info {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  /* justify-content: space-between; */
+}
+.edit {
+  gap: 10px;
+  display: flex;
+}
+.blog-title {
+  color: white;
+  font-size: 43px;
+}
+.blog-para {
+  text-align: justify;
+  line-height: 30px;
+}
+/* Single Blog Page CSS Ends  */
+.write {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.write-content {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.write-menu {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog-edit {
+  height: 300px;
+  overflow: scroll;
+  border: 1px solid white;
+}
+.edit-quill {
+  height: 100%;
+}
+.write-item {
+  border: 1px solid white;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-title {
+  border: 1px solid white;
+}
+
+.img-upload {
+  cursor: pointer;
+}
+
+.upload-bn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.cat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
